@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		283B9A681DD14CB400359672 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283B9A671DD14CB400359672 /* Constants.swift */; };
+		283B9A6A1DD14CCA00359672 /* CardPile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283B9A691DD14CCA00359672 /* CardPile.swift */; };
+		283B9A6E1DD169FA00359672 /* CardHistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283B9A6D1DD169FA00359672 /* CardHistoryVC.swift */; };
+		283B9A711DD16A5D00359672 /* CardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283B9A701DD16A5D00359672 /* CardCell.swift */; };
+		284BAADC1DD1451C001AE355 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284BAADB1DD1451C001AE355 /* AppDelegate.swift */; };
+		284BAADE1DD1451C001AE355 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284BAADD1DD1451C001AE355 /* MainVC.swift */; };
+		284BAAE11DD1451C001AE355 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 284BAADF1DD1451C001AE355 /* Main.storyboard */; };
+		284BAAE31DD1451C001AE355 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 284BAAE21DD1451C001AE355 /* Assets.xcassets */; };
+		284BAAE61DD1451C001AE355 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 284BAAE41DD1451C001AE355 /* LaunchScreen.storyboard */; };
+		BF4A5131A67BD12BDAD37D5E /* Pods_CardTrick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF86B4BC0388592AC3145D29 /* Pods_CardTrick.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		283B9A671DD14CB400359672 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		283B9A691DD14CCA00359672 /* CardPile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardPile.swift; sourceTree = "<group>"; };
+		283B9A6D1DD169FA00359672 /* CardHistoryVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardHistoryVC.swift; sourceTree = "<group>"; };
+		283B9A701DD16A5D00359672 /* CardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardCell.swift; sourceTree = "<group>"; };
+		284BAAD81DD1451C001AE355 /* CardTrick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardTrick.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		284BAADB1DD1451C001AE355 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		284BAADD1DD1451C001AE355 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		284BAAE01DD1451C001AE355 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		284BAAE21DD1451C001AE355 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		284BAAE51DD1451C001AE355 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		284BAAE71DD1451C001AE355 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87BDD87236B0E7178C26948D /* Pods-CardTrick.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CardTrick.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CardTrick/Pods-CardTrick.debug.xcconfig"; sourceTree = "<group>"; };
+		CCB906B0BBDBB011473256B3 /* Pods-CardTrick.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CardTrick.release.xcconfig"; path = "Pods/Target Support Files/Pods-CardTrick/Pods-CardTrick.release.xcconfig"; sourceTree = "<group>"; };
+		DF86B4BC0388592AC3145D29 /* Pods_CardTrick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CardTrick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		284BAAD51DD1451C001AE355 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF4A5131A67BD12BDAD37D5E /* Pods_CardTrick.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2835F3F71DD248B7008677FD /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				283B9A671DD14CB400359672 /* Constants.swift */,
+				283B9A691DD14CCA00359672 /* CardPile.swift */,
+				283B9A701DD16A5D00359672 /* CardCell.swift */,
+			);
+			name = Database;
+			sourceTree = "<group>";
+		};
+		283B9A6F1DD169FF00359672 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				283B9A6D1DD169FA00359672 /* CardHistoryVC.swift */,
+				284BAADD1DD1451C001AE355 /* MainVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		284BAACF1DD1451C001AE355 = {
+			isa = PBXGroup;
+			children = (
+				284BAADA1DD1451C001AE355 /* CardTrick */,
+				284BAAD91DD1451C001AE355 /* Products */,
+				474E6B725F7BAF7917349E95 /* Pods */,
+				5EBEC6A3732962775B8EABCE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		284BAAD91DD1451C001AE355 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				284BAAD81DD1451C001AE355 /* CardTrick.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		284BAADA1DD1451C001AE355 /* CardTrick */ = {
+			isa = PBXGroup;
+			children = (
+				2835F3F71DD248B7008677FD /* Database */,
+				283B9A6F1DD169FF00359672 /* Controller */,
+				284BAADB1DD1451C001AE355 /* AppDelegate.swift */,
+				284BAADF1DD1451C001AE355 /* Main.storyboard */,
+				284BAAE21DD1451C001AE355 /* Assets.xcassets */,
+				284BAAE41DD1451C001AE355 /* LaunchScreen.storyboard */,
+				284BAAE71DD1451C001AE355 /* Info.plist */,
+			);
+			path = CardTrick;
+			sourceTree = "<group>";
+		};
+		474E6B725F7BAF7917349E95 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				87BDD87236B0E7178C26948D /* Pods-CardTrick.debug.xcconfig */,
+				CCB906B0BBDBB011473256B3 /* Pods-CardTrick.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5EBEC6A3732962775B8EABCE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF86B4BC0388592AC3145D29 /* Pods_CardTrick.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		284BAAD71DD1451C001AE355 /* CardTrick */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 284BAAEA1DD1451C001AE355 /* Build configuration list for PBXNativeTarget "CardTrick" */;
+			buildPhases = (
+				565A2C886C3AD072519EF808 /* [CP] Check Pods Manifest.lock */,
+				284BAAD41DD1451C001AE355 /* Sources */,
+				284BAAD51DD1451C001AE355 /* Frameworks */,
+				284BAAD61DD1451C001AE355 /* Resources */,
+				35B1FA5DE37D2979B280CAB8 /* [CP] Embed Pods Frameworks */,
+				D0A02509561D8F003520CB84 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CardTrick;
+			productName = CardTrick;
+			productReference = 284BAAD81DD1451C001AE355 /* CardTrick.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		284BAAD01DD1451C001AE355 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = DreamDev;
+				TargetAttributes = {
+					284BAAD71DD1451C001AE355 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = Q9QJZL48ZZ;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 284BAAD31DD1451C001AE355 /* Build configuration list for PBXProject "CardTrick" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 284BAACF1DD1451C001AE355;
+			productRefGroup = 284BAAD91DD1451C001AE355 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				284BAAD71DD1451C001AE355 /* CardTrick */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		284BAAD61DD1451C001AE355 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				284BAAE61DD1451C001AE355 /* LaunchScreen.storyboard in Resources */,
+				284BAAE31DD1451C001AE355 /* Assets.xcassets in Resources */,
+				284BAAE11DD1451C001AE355 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		35B1FA5DE37D2979B280CAB8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CardTrick/Pods-CardTrick-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		565A2C886C3AD072519EF808 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D0A02509561D8F003520CB84 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CardTrick/Pods-CardTrick-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		284BAAD41DD1451C001AE355 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				283B9A6E1DD169FA00359672 /* CardHistoryVC.swift in Sources */,
+				284BAADE1DD1451C001AE355 /* MainVC.swift in Sources */,
+				283B9A6A1DD14CCA00359672 /* CardPile.swift in Sources */,
+				284BAADC1DD1451C001AE355 /* AppDelegate.swift in Sources */,
+				283B9A681DD14CB400359672 /* Constants.swift in Sources */,
+				283B9A711DD16A5D00359672 /* CardCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		284BAADF1DD1451C001AE355 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				284BAAE01DD1451C001AE355 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		284BAAE41DD1451C001AE355 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				284BAAE51DD1451C001AE355 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		284BAAE81DD1451C001AE355 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		284BAAE91DD1451C001AE355 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		284BAAEB1DD1451C001AE355 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87BDD87236B0E7178C26948D /* Pods-CardTrick.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q9QJZL48ZZ;
+				INFOPLIST_FILE = CardTrick/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DreamDev.CardTrick;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		284BAAEC1DD1451C001AE355 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCB906B0BBDBB011473256B3 /* Pods-CardTrick.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q9QJZL48ZZ;
+				INFOPLIST_FILE = CardTrick/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DreamDev.CardTrick;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		284BAAD31DD1451C001AE355 /* Build configuration list for PBXProject "CardTrick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				284BAAE81DD1451C001AE355 /* Debug */,
+				284BAAE91DD1451C001AE355 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		284BAAEA1DD1451C001AE355 /* Build configuration list for PBXNativeTarget "CardTrick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				284BAAEB1DD1451C001AE355 /* Debug */,
+				284BAAEC1DD1451C001AE355 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 284BAAD01DD1451C001AE355 /* Project object */;
+}
